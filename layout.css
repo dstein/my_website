@@ -12,7 +12,7 @@
 }
 
 header h1 {
-	margin-left: 100px;
+	margin-left: 25px;
 	padding-top: 10px;
 }
 
@@ -92,15 +92,21 @@ aside {
 
 .secondary2 {
 	width: 100%;
-	background-color: #95e9ff;
-	
+	background-color: #daeeff;
+	height: 650px;
 }
+header {
+	background-color: #586380;
+}
+.nav li a {
+	color: #b8b8b8;
+}
+
+
 
 .secondary2 img {
 	display: block;
 	float: right;
-	margin-right: 75px;
-	margin-bottom: 20px;
 }
 
 
@@ -166,4 +172,28 @@ input {
 }
 .nav_hover {
 
+}
+
+.work {
+	background-color: #6facff;
+	height: 650px;
+}
+.about {
+	background-color: #ff8151;
+	height: 650px;
+}
+.contact {
+	background-color: #ff4872;
+	height: 650px;
+}
+
+.work h1 {
+	text-align: center
+}
+
+.about h1 {
+	text-align: center
+}
+.contact h1 {
+	text-align: center
 }
