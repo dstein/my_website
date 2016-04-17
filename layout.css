@@ -41,7 +41,7 @@ footer {
 	margin-left: 0px;
 	margin-right: 0px;
 	margin-bottom: 5px;
-	width: auto;
+	
 }
 
 
@@ -54,6 +54,41 @@ footer {
 	padding-bottom: 0px;
 	margin-bottom: 0px;
 	margin-top: 0px;
+}
+
+@media (min-width: 320px) {
+	.home2 ul li {
+		padding-right: 0px;
+		padding-left: 10px;
+	}
+}
+
+@media (min-width: 480px) {
+	.home2 ul li {
+		padding-right: 0px;
+		padding-left: 10px;
+	}
+}
+
+@media (min-width: 768px) {
+	.home2 ul li {
+		padding-right: 0px;
+		padding-left: 10px;
+	}
+}
+
+@media (min-width: 992px) {
+	.home2 ul li {
+		padding-right: 5px;
+		padding-left: 25px;
+	}
+}
+
+@media (min-width: 1200px) {
+	.home2 ul li {
+		padding-right: 35px;
+		padding-left: 25px;
+	}
 }
 
 
@@ -97,6 +132,7 @@ aside {
 }
 header {
 	background-color: #586380;
+	overflow: hidden;
 }
 .nav li a {
 	color: #b8b8b8;
@@ -196,4 +232,11 @@ input {
 }
 .contact h1 {
 	text-align: center
+}
+.skew_color {
+	overflow:hidden;
+	padding-top: 800px;
+	position: absolute;
+	transform: skewY(-40deg);
+	background-color: #717d9c;
 }
