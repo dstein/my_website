@@ -30,6 +30,7 @@ header {
 	overflow: hidden;
 	padding: 0 0 0 0;
 	margin: 0 0 0 0;
+
 }
 
 .header-text-container {
@@ -130,7 +131,7 @@ header {
 	margin-left: 0px;
 	padding-top: 0px;
 	padding-right: 0px;
-	padding-bottom: 230px;
+	padding-bottom: 300px;
 	padding-left: 0px;
 }
 
@@ -151,24 +152,20 @@ header {
 .contact {
 	/*background-color: #ff4872;*/
 	background-color: #daeeff;
-	padding: 0 0 0 0;
+	padding-right: 0px;
+	padding-left: 0px;
+	padding-bottom: 150px;
 	margin: 0 0 0 0;
-	height: 50vh;
+	
 }
 
 .secondary2 {
 	width: 100%;
 	height: 90vh;
 	background-color: #daeeff;
-	margin-top: 0px;
-	margin-right: 0px;
-	margin-bottom: 0px;
-	margin-left: 0px;
-	padding-top: 0px;
-	padding-right: 0px;
-	padding-bottom: 0px;
-	padding-left: 0px;
-	border-bottom: thick solid #717d9c;
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+	border-bottom: medium dashed #717d9c;
 }
 
 
@@ -193,20 +190,57 @@ header {
 	/* Footer Styles */
 
 footer {
-	border: 5px solid #000;
 	margin: 0 0 0 0;
 	padding: 0 0 0 0;
 	height: 100px;
+	background-color: #586380;
 }
 
 
 /*////////////////////////////////////////////////*/
 	/* Paragraph Styles */
+	
+
 
 .text_main {
 	margin-top: 45px;
 	padding-left: 150px;
 	padding-right: 150px;
+}
+
+.plus {
+	font-size: 72px;
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+	text-align: center;
+}
+
+.text_work {
+	margin-top: 80px;
+}
+.text_work p {
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	font-weight: bold;
+	font-size: 28px;
+	left: 1px;
+	top: 172px;
+}
+
+.text_work p:nth-of-type(1) {
+	padding-right: 500px;
+}
+.text_work p:nth-of-type(2) {
+	padding-left: 500px;
+}
+
+.contact_images p {
+	text-align: center;
+	position: absolute;
+	padding-top: 6px;
+	margin-left: 250px;
+	font-weight: bold;
 }
 
 .secondary2 p {
@@ -252,17 +286,23 @@ footer {
 	text-align: center;
 	margin-top: 50px;
 	font-weight: bold;
+	font-size: 38px;
+	color: #586380;
 }
 
 .work h2 {
 	text-align: center;
 	font-weight: bold;
 	margin-top: 45px;
+	font-size: 38px;
+	color: #586380;
 }
 
 .contact h2 {
 	text-align: center;
 	font-weight: bold;
+	font-size: 38px;
+	color: #586380;
 }
 
 
@@ -274,9 +314,18 @@ footer {
 	text-align: center;
 }
 
+.logo1 {
+	margin-top: 70px;
+}
+
+
 .secondary2 img {
 	margin-top: 100px;
 	position: relative;
+}
+
+.message_button {
+	margin-top: 125px;
 }
 
 
@@ -313,6 +362,18 @@ footer {
 		padding-right: 0px;
 		padding-left: 0px;
 	}
+	
+	.center_work {
+		margin-left: 15px;
+	}
+	.text_work1 p {
+		margin-right: 900px;
+	}
+	.text_work2 p {
+		padding-left: 50px;
+	}
+
+
 }
 
 @media (max-width: 480px) {
@@ -363,12 +424,18 @@ footer {
 		color: #d8d8d8;
   	}
 	
-	.about p {
+	.text_main {
 		margin-top: 45px;
 		padding-left: 50px;
 		padding-right: 50px;
 	}
-
+	
+	.text_work p:nth-of-type(1) {
+		padding-right: 155px;
+	}
+	.text_work p:nth-of-type(2) {
+		padding-left: 155px;
+	}
 }
 
 @media (min-width: 768px) {
@@ -402,6 +469,13 @@ footer {
 		padding-right: 0px;
 		padding-left: 0px;
 	}
+	
+	.text_work1 p {
+		padding-left: 60px;
+	}
+	.text_work2 p {
+		padding-left: 60px;
+	}
 }
 
 @media (min-width: 1200px) {
@@ -419,4 +493,5 @@ footer {
 		padding-right: 0px;
 		padding-left: 0px;
 	}
+	
 }
