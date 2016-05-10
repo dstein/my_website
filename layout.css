@@ -23,6 +23,14 @@ body {
 
 
 /*////////////////////////////////////////////////*/
+	/* Link Styles */
+	
+.projects_description p a {
+	text-decoration: underline;
+}
+
+
+/*////////////////////////////////////////////////*/
 	/* Button Styles */
 
 .message_button {
@@ -111,7 +119,7 @@ header {
 }
 
 .home2 ul li:nth-of-type(1):hover {
-	border-bottom: medium solid #f55f61;
+	border-bottom: medium solid #f47778;
 }
 
 .home2 ul li:nth-of-type(1) {
@@ -126,7 +134,7 @@ header {
 }
 
 .home2 ul li:nth-of-type(2):nth-of-type(2):hover {
-	border-bottom: medium solid #f55f61;
+	border-bottom: medium solid #f47778;
 }
 
 .home2 ul li:nth-of-type(2) {
@@ -140,12 +148,12 @@ header {
 }
 
 .home2 ul li:nth-of-type(3) {
-	border: medium solid #f55f61;
+	border: medium solid #f47778;
 	border-radius: 5px;
 }
 
 .home2 ul li:nth-of-type(3):hover {
-	background-color: #f55f61
+	background-color: #f47778
 }
 
 
@@ -219,7 +227,8 @@ header {
 }
 
 .first_project {
-	background-color: #f55f61;
+	background-color: #f47778;
+	/*background-color: #f55f61;*/ 
 	padding-top: 100px;
 	padding-bottom: 180px;
 }
@@ -233,7 +242,7 @@ header {
 .projects_description {
 	background-color: #daeeff;
 	padding-top: 100px;
-	padding-bottom: 380px;
+	padding-bottom: 350px;
 }
 
 /*////////////////////////////////////////////////*/
@@ -273,9 +282,9 @@ footer {
 }
 
 .text_main {
-	margin-top: 45px;
-	padding-left: 150px;
-	padding-right: 150px;
+	margin-top: 20px;
+	font-size: 22px;
+
 }
 
 .plus {
@@ -442,9 +451,7 @@ footer {
 	margin-top: 125px;
 }
 
-.project_image1 img {
-	
-}
+
 
 /*////////////////////////////////////////////////*/
 	/* Misc Styles */
@@ -515,6 +522,11 @@ footer {
 		padding-left: 0px;
 	}
 	
+	.text_main {
+		padding-left: 25px;
+		padding-right: 25px;
+		
+	}
 
 }
 
@@ -579,6 +591,7 @@ footer {
 		margin-top: 45px;
 		padding-left: 50px;
 		padding-right: 50px;
+		font-size: 20px;
 	}
 	
 	.text_work p:nth-of-type(1) {
@@ -591,6 +604,12 @@ footer {
 	.footer_links ul li {
 		padding-left: 25px;
 		padding-right: 25px;
+	}
+	
+	.projects_description {
+		background-color: #daeeff;
+		padding-top: 25px;
+		padding-bottom: 100px;
 	}
 }
 
@@ -673,4 +692,54 @@ footer {
 		margin-top: 0px;
 	}
 
+}
+
+/*//////////////////////////////////////////
+	DELETE AFTER GRADING*/
+	
+#contact_form {
+	margin-top: 85px;
+	margin-left: 350px;
+	margin-right: 150px;
+}
+
+legend {
+	margin-top: 50px;
+	font-weight: bold;
+	font-size: 18px;
+	text-transform: uppercase;
+}
+
+label {
+	margin-top: 15px;
+	float: left;
+	margin-left: 100px;
+	font-weight: bold;	
+}
+
+input {
+	margin-top: 25px;
+	margin-left: 360px;
+	height: 50px;
+	width: 150px;
+	font-size: 16px;	
+}
+
+#FirstName {
+	margin-top: 15px;
+	margin-left: 25px;
+	width: 25%;
+}
+
+#LastName {
+	margin-top: 15px;
+	margin-left: 25px;
+	width: 25%;
+}
+
+#Comments {
+	margin-top: 15px;
+	margin-left: 25px;
+	width: 50%;
+	height: 100px;
 }
