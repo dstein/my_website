@@ -77,7 +77,7 @@ header {
 }
 
 
-.header-text-container p {
+.dan_logo p {
 	margin-top: 10px;
 	margin-bottom: 10px;
 	float: left;
@@ -85,11 +85,11 @@ header {
 	font-weight: bold;
 }
 
-.header-text-container p:nth-of-type(1) {
+.dan_logo p:nth-of-type(1) {
 	color: #53e3a6;
 }
 
-.header-text-container p:nth-of-type(2) {
+.dan_logo p:nth-of-type(2) {
 	color: #d8d8d8;
 }
 
@@ -692,54 +692,4 @@ footer {
 		margin-top: 0px;
 	}
 
-}
-
-/*//////////////////////////////////////////
-	DELETE AFTER GRADING*/
-	
-#contact_form {
-	margin-top: 85px;
-	margin-left: 350px;
-	margin-right: 150px;
-}
-
-legend {
-	margin-top: 50px;
-	font-weight: bold;
-	font-size: 18px;
-	text-transform: uppercase;
-}
-
-label {
-	margin-top: 15px;
-	float: left;
-	margin-left: 100px;
-	font-weight: bold;	
-}
-
-input {
-	margin-top: 25px;
-	margin-left: 360px;
-	height: 50px;
-	width: 150px;
-	font-size: 16px;	
-}
-
-#FirstName {
-	margin-top: 15px;
-	margin-left: 25px;
-	width: 25%;
-}
-
-#LastName {
-	margin-top: 15px;
-	margin-left: 25px;
-	width: 25%;
-}
-
-#Comments {
-	margin-top: 15px;
-	margin-left: 25px;
-	width: 50%;
-	height: 100px;
 }
